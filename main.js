@@ -3,7 +3,8 @@ $(function(){
         console.log("BUSCANDO USUARIOS");
 
         $.ajax({
-            url: 'http://localhost:3000/users',
+            // url: 'http://localhost:3000/users',
+            url: 'https://my-json-server.typicode.com/pepitogithub/api_rest_ajax_jquery_node_ejemplo/users',
             type: 'GET',
             dataType: 'json',
 
